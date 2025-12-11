@@ -1,0 +1,197 @@
+{
+  "personal": {
+    "name": "SUDESH GOWDA MD",
+    "title": "FrontEnd Developer",
+    "greeting": "Hi, I'm",
+    "description": "I create beautiful and functional web experiences with modern technologies. Passionate about clean code, user experience, and continuous learning.",
+    "profileImage": "/src/assets/sudu.jpg",
+    "email": "sudeshmd1997@gmail.com",
+    "phone": "+91 8123265859",
+    "location": "Bangalore, India"
+  },
+  "socialLinks": [
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "https://github.com/sudeshgowdq",
+      "icon": "FaGithub"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gowda-sudesh/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "id": "twitter",
+      "label": "Twitter",
+      "url": "https://twitter.com",
+      "icon": "FaTwitter"
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "url": "mailto:sudeshmd1997@gmail.com",
+      "icon": "FaEnvelope"
+    }
+  ],
+  "about": {
+    "paragraphs": [
+      "I'm a passionate Frontend Developer with a love for crafting beautiful, responsive user interfaces. With expertise in React, modern CSS, and JavaScript, I bring designs to life with pixel-perfect precision.",
+      "My journey in frontend development started with a fascination for creating interactive experiences. I specialize in building performant, accessible web applications that delight users. From animations to state management, I focus on every detail that makes a great UI.",
+      "When I'm not coding, you can find me exploring the latest frontend frameworks, experimenting with CSS animations, or sharing UI/UX insights with the developer community."
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Projects Completed",
+        "delay": 0.5
+      },
+      {
+        "value": "4+",
+        "label": "Years Experience",
+        "delay": 0.7
+      },
+      {
+        "value": "2",
+        "label": "Happy Clients",
+        "delay": 0.9
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "React",
+      "icon": "FaReact",
+      "level": 90,
+      "color": "#61DAFB"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "FaJsSquare",
+      "level": 85,
+      "color": "#F7DF1E"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "SiTypescript",
+      "level": 80,
+      "color": "#3178C6"
+    },
+    {
+      "name": "HTML5",
+      "icon": "FaHtml5",
+      "level": 95,
+      "color": "#E34F26"
+    },
+    {
+      "name": "CSS3",
+      "icon": "FaCss3Alt",
+      "level": 90,
+      "color": "#1572B6"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "SiTailwindcss",
+      "level": 85,
+      "color": "#06B6D4"
+    },
+    {
+      "name": "Git",
+      "icon": "FaGitAlt",
+      "level": 80,
+      "color": "#F05032"
+    },
+	{
+	  "name":"Redux",
+	  "icon":"FaRedux",
+	  "level":75,
+	  "color":"#764ABC"
+	},
+	{
+	  "name":"Sass",
+	  "icon":"FaSass",
+	  "level":70,
+	  "color":"#CC6699"
+	}
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, shopping cart, and payment integration.",
+      "technologies": ["React", "Node.js", "MongoDB", "Express"],
+      "github": "https://github.com/sudeshgowdq",
+      "live": "https://example.com",
+      "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=500&h=300&fit=crop"
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      "technologies": ["React", "Firebase", "Tailwind CSS", "Redux"],
+      "github": "https://github.com/sudeshgowdq",
+      "live": "https://example.com",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop"
+    },
+    {
+      "id": 3,
+      "title": "Weather Dashboard",
+      "description": "Interactive weather application with real-time data, forecasts, and beautiful visualizations using Chart.js.",
+      "technologies": ["React", "OpenWeather API", "Chart.js", "CSS3"],
+      "github": "https://github.com/sudeshgowdq",
+      "live": "https://example.com",
+      "image": "https://images.unsplash.com/photo-1561484930-998b6a7b22e8?w=500&h=300&fit=crop"
+    },
+    {
+      "id": 4,
+      "title": "Social Media Dashboard",
+      "description": "Analytics dashboard for social media metrics with data visualization and insights.",
+      "technologies": ["React", "TypeScript", "D3.js"],
+      "github": "https://github.com/sudeshgowdq",
+      "live": "https://example.com",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop"
+    },
+    {
+      "id": 5,
+      "title": "Portfolio Generator",
+      "description": "Dynamic portfolio website generator with customizable themes and templates.",
+      "technologies": ["React", "Tailwind CSS", "Framer Motion"],
+      "github": "https://github.com/sudeshgowdq",
+      "live": "https://example.com",
+      "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop"
+    },
+    {
+      "id": 6,
+      "title": "Chat Application",
+      "description": "Real-time chat application with private messaging, group chats, and file sharing.",
+      "technologies": ["React", "Firebase", "Sass"],
+      "github": "https://github.com/sudeshgowdq",
+      "live": "https://example.com",
+      "image": "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=500&h=300&fit=crop"
+    }
+  ],
+  "contactInfo": [
+    {
+      "id": "email",
+      "icon": "FaEnvelope",
+      "title": "Email",
+      "value": "sudeshmd1997@gmail.com",
+      "link": "mailto:sudeshmd1997@gmail.com"
+    },
+    {
+      "id": "phone",
+      "icon": "FaPhone",
+      "title": "Phone",
+      "value": "+91 8123265859",
+      "link": "tel:+918123265859"
+    },
+    {
+      "id": "location",
+      "icon": "FaMapMarkerAlt",
+      "title": "Location",
+      "value": "Bangalore, India",
+      "link": "#"
+    }
+  ]
+}
