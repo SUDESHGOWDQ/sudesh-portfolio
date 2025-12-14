@@ -3,10 +3,12 @@ import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 import suduImg from '../assets/sudu.jpg';
 import portfolioData from '../data/portfolioData.json';
+import { useTranslation } from 'react-i18next';
 import './Hero.css';
 
 const Hero = () => {
   const { personal, socialLinks } = portfolioData;
+  const { t } = useTranslation();
   
   const iconMap = {
     FaGithub: <FaGithub />,
@@ -50,19 +52,19 @@ const Hero = () => {
         </motion.div>
         
         <motion.div variants={itemVariants} className="greeting">
-          {personal.greeting}
+          {t('personal.greeting')}
         </motion.div>
         
         <motion.h1 variants={itemVariants} className="name">
-          {personal.name}
+          {t('personal.name')}
         </motion.h1>
         
         <motion.h2 variants={itemVariants} className="title">
-          {personal.title}
+          {t('personal.title')}
         </motion.h2>
         
         <motion.p variants={itemVariants} className="description">
-          {personal.description}
+          {t('personal.description')}
         </motion.p>
 
         <motion.div variants={itemVariants} className="cta-buttons">

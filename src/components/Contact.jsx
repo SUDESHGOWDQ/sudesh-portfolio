@@ -1,12 +1,14 @@
 import React, { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
 import portfolioData from '../data/portfolioData.json';
 import './Contact.css';
 
 const Contact = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -74,7 +76,7 @@ const Contact = () => {
           animate={isInView ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Get In Touch
+          {t('contact.title')}
         </motion.h2>
 
         <motion.div
@@ -84,14 +86,13 @@ const Contact = () => {
           animate={isInView ? "visible" : "hidden"}
         >
           <motion.div className="contact-info" variants={itemVariants}>
-            <h3>Let's Connect</h3>
+            <h3>{t('contact.heading')}</h3>
             <p>
-              I'm always open to discussing new projects, creative ideas, or
-              opportunities to be part of your vision.
+              {t('contact.description')}
             </p>
 
             <div className="contact-details">
-              {contactInfo.map((item) => (
+              {contactInfo.map((item, index) => (
                 <motion.a
                   key={item.id}
                   href={item.link}
@@ -100,8 +101,8 @@ const Contact = () => {
                 >
                   <div className="contact-icon">{iconMap[item.icon]}</div>
                   <div>
-                    <h4>{item.title}</h4>
-                    <p>{item.value}</p>
+                    <h4>{t(`contact.contactInfo.${index}.title`)}</h4>
+                    <p>{t(`contact.contactInfo.${index}.value`)}</p>
                   </div>
                 </motion.a>
               ))}
@@ -133,7 +134,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="Your Name"
+                placeholder={t('contact.form.namePlaceholder')}
                 value={formData.name}
                 onChange={handleChange}
                 required
@@ -143,7 +144,7 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
-                placeholder="Your Email"
+                placeholder={t('contact.form.emailPlaceholder')}
                 value={formData.email}
                 onChange={handleChange}
                 required
@@ -152,7 +153,7 @@ const Contact = () => {
             <div className="form-group">
               <textarea
                 name="message"
-                placeholder="Your Message"
+                placeholder={t('contact.form.messagePlaceholder')}
                 rows="5"
                 value={formData.message}
                 onChange={handleChange}
@@ -165,7 +166,7 @@ const Contact = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Send Message
+              {t('contact.form.submitButton')}
             </motion.button>
           </motion.form>
         </motion.div>
@@ -177,7 +178,7 @@ const Contact = () => {
         animate={isInView ? { opacity: 1 } : { opacity: 0 }}
         transition={{ delay: 0.5 }}
       >
-        <p>&copy; 2021 SudeshGowda Md  All rights reserved.</p>
+        <p>{t('contact.footer')}</p>
       </motion.div>
     </section>
   );

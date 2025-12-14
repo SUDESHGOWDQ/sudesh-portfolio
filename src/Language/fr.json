@@ -1,0 +1,43 @@
+{
+	"portfolio": "Portfolio",
+	"personal": {
+		"name": "SUDESH GOWDA MD",
+		"title": "Développeur Frontend",
+		"greeting": "Bonjour, je suis",
+		"description": "Je crée des expériences web belles et fonctionnelles avec des technologies modernes. Passionné par le code propre, l'expérience utilisateur et l'apprentissage continu.",
+		"profileImage": "/src/assets/sudu.jpg",
+		"email": "sudeshmd1997@gmail.com",
+		"phone": "+91 8123265859",
+		"location": "Bangalore, Inde"
+	},
+	"about": {
+		"title": "À propos de moi",
+		"paragraphs": [
+			"Je suis un développeur Frontend passionné avec un amour pour la création d'interfaces utilisateur belles et réactives. Avec une expertise en React, CSS moderne et JavaScript, je donne vie aux designs avec une précision au pixel près.",
+			"Mon parcours dans le développement frontend a commencé par une fascination pour la création d'expériences interactives. Je me spécialise dans la création d'applications web performantes et accessibles qui ravissent les utilisateurs. Des animations à la gestion d'état, je me concentre sur chaque détail qui fait une excellente interface utilisateur.",
+			"Quand je ne code pas, vous pouvez me trouver en train d'explorer les derniers frameworks frontend, d'expérimenter avec des animations CSS, ou de partager des insights UI/UX avec la communauté des développeurs."
+		],
+		"stats": [
+			{"value": "20+", "label": "Projets terminés"},
+			{"value": "4+", "label": "Années d'expérience"},
+			{"value": "2", "label": "Clients satisfaits"}
+		]
+	},
+	"contact": {
+		"title": "Entrer en contact",
+		"heading": "Connectons-nous",
+		"description": "Je suis toujours ouvert à discuter de nouveaux projets, d'idées créatives ou d'opportunités de faire partie de votre vision.",
+		"form": {
+			"namePlaceholder": "Votre nom",
+			"emailPlaceholder": "Votre email",
+			"messagePlaceholder": "Votre message",
+			"submitButton": "Envoyer le message"
+		},
+		"contactInfo": [
+			{"title": "Email", "value": "sudeshmd1997@gmail.com"},
+			{"title": "Téléphone", "value": "+91 8123265859"},
+			{"title": "Localisation", "value": "Bangalore, Inde"}
+		],
+		"footer": "© 2021 SudeshGowda Md Tous droits réservés."
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"portfolio": "Portafolio",
+	"personal": {
+		"name": "SUDESH GOWDA MD",
+		"title": "Desarrollador Frontend",
+		"greeting": "Hola, soy",
+		"description": "Creo experiencias web hermosas y funcionales con tecnologías modernas. Apasionado por el código limpio, la experiencia del usuario y el aprendizaje continuo.",
+		"profileImage": "/src/assets/sudu.jpg",
+		"email": "sudeshmd1997@gmail.com",
+		"phone": "+91 8123265859",
+		"location": "Bangalore, India"
+	},
+	"about": {
+		"title": "Sobre mí",
+		"paragraphs": [
+			"Soy un Desarrollador Frontend apasionado con amor por crear interfaces de usuario hermosas y responsive. Con experiencia en React, CSS moderno y JavaScript, doy vida a los diseños con precisión pixel-perfect.",
+			"Mi viaje en el desarrollo frontend comenzó con una fascinación por crear experiencias interactivas. Me especializo en construir aplicaciones web eficientes y accesibles que deleitan a los usuarios. Desde animaciones hasta gestión de estado, me enfoco en cada detalle que hace una gran UI.",
+			"Cuando no estoy programando, puedes encontrarme explorando los últimos frameworks frontend, experimentando con animaciones CSS o compartiendo conocimientos de UI/UX con la comunidad de desarrolladores."
+		],
+		"stats": [
+			{"value": "20+", "label": "Proyectos completados"},
+			{"value": "4+", "label": "Años de experiencia"},
+			{"value": "2", "label": "Clientes felices"}
+		]
+	},
+	"contact": {
+		"title": "Ponte en contacto",
+		"heading": "Conectémonos",
+		"description": "Siempre estoy abierto a discutir nuevos proyectos, ideas creativas u oportunidades para ser parte de tu visión.",
+		"form": {
+			"namePlaceholder": "Tu nombre",
+			"emailPlaceholder": "Tu email",
+			"messagePlaceholder": "Tu mensaje",
+			"submitButton": "Enviar mensaje"
+		},
+		"contactInfo": [
+			{"title": "Email", "value": "sudeshmd1997@gmail.com"},
+			{"title": "Teléfono", "value": "+91 8123265859"},
+			{"title": "Ubicación", "value": "Bangalore, India"}
+		],
+		"footer": "© 2021 SudeshGowda Md Todos los derechos reservados."
+	}
+}

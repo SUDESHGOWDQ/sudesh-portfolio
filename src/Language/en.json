@@ -1,0 +1,43 @@
+{
+	"portfolio": "Portfolio",
+	"personal": {
+    "name": "SUDESH GOWDA MD",
+    "title": "FrontEnd Developer",
+    "greeting": "Hi, I'm",
+    "description": "I create beautiful and functional web experiences with modern technologies. Passionate about clean code, user experience, and continuous learning.",
+    "profileImage": "/src/assets/sudu.jpg",
+    "email": "sudeshmd1997@gmail.com",
+    "phone": "+91 8123265859",
+    "location": "Bangalore, India"
+  },
+	"about": {
+		"title": "About Me",
+		"paragraphs": [
+			"I'm a passionate Frontend Developer with a love for crafting beautiful, responsive user interfaces. With expertise in React, modern CSS, and JavaScript, I bring designs to life with pixel-perfect precision.",
+			"My journey in frontend development started with a fascination for creating interactive experiences. I specialize in building performant, accessible web applications that delight users. From animations to state management, I focus on every detail that makes a great UI.",
+			"When I'm not coding, you can find me exploring the latest frontend frameworks, experimenting with CSS animations, or sharing UI/UX insights with the developer community."
+		],
+		"stats": [
+			{"value": "20+", "label": "Projects Completed"},
+			{"value": "4+", "label": "Years Experience"},
+			{"value": "2", "label": "Happy Clients"}
+		]
+	},
+	"contact": {
+		"title": "Get In Touch",
+		"heading": "Let's Connect",
+		"description": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+		"form": {
+			"namePlaceholder": "Your Name",
+			"emailPlaceholder": "Your Email",
+			"messagePlaceholder": "Your Message",
+			"submitButton": "Send Message"
+		},
+		"contactInfo": [
+			{"title": "Email", "value": "sudeshmd1997@gmail.com"},
+			{"title": "Phone", "value": "+91 8123265859"},
+			{"title": "Location", "value": "Bangalore, India"}
+		],
+		"footer": "© 2021 SudeshGowda Md All rights reserved."
+	}
+}
